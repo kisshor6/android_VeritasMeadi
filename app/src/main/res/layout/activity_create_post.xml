@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".createPost">
+
+    <EditText
+        android:layout_margin="12dp"
+        android:id="@+id/postContent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="@string/hint_post"
+        android:background="@drawable/editextbackground"
+        android:textColor="@color/black"
+        android:gravity="top"
+        android:padding="12dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/postBtn"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/post"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnbackground"/>
+
+</LinearLayout>
